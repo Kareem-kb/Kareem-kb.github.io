@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="staylesheet.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Coffe Masters</title>
+  </head>
+
+  <body>
+    <nav class="mine-nav">
+      <h1 class="title">
+        <img class="Logo" src="coffee_masters_logo.png" /> Coffee Masters
+      </h1>
+    </nav>
+    <dev class="flex-container">
+      <div class="items-box">
+        <h3 class="items">ITEMS</h3>
+        <ul class="all-item">
+          <li>
+            <div class="cart-item">
+              <div class="qty">1x</div>
+              <div class="item">
+                <h3 class="item-name">Cappuccino</h3>
+                <h5>Lite fome</h5>
+              </div>
+              <div class="price">$7.90</div>
+            </div>
+          </li>
+          <li class="seperator"></li>
+          <li>
+            <div class="cart-item">
+              <div class="qty">1x</div>
+              <div class="item">
+                <h3 class="item-name">Cappuccino</h3>
+                <h5>lite Milk</h5>
+                <h5>Double Espresso Shot</h5>
+              </div>
+              <div class="price">$7.90</div>
+            </div>
+          </li>
+          <li class="seperator"></li>
+          <li>
+            <div class="cart-item">
+              <div class="qty">1x</div>
+              <div class="item">
+                <h3 class="item-name">Croissant</h3>
+                <h5>Butter</h5>
+              </div>
+              <div class="price">$5.37</div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="scond-flex">
+        <div class="name-box">
+          <h3>Name</h3>
+          <input type="text" /> <label for="name-input"> Name for order </label>
+        </div>
+
+        <div class="payment-box">
+          <h3>Payment</h3>
+          <input class="card-input" type="number" /><label
+            class="label-1"
+            for="card-input"
+            >Card Number</label
+          >
+          <input class="card-cvv" type="number" />
+          <label class="label-2" for="card-cvv"> CVV Number </label>
+        </div>
+      </div>
+    </dev>
+    <div class="total-box">
+      <ul class="total-items">
+        <li>
+          <div class="total-line">
+            <div class="total">Subtotal:</div>
+            <div class="t-price">$9.56</div>
+          </div>
+        </li>
+        <li>
+          <div class="total-line">
+            <div class="total">Tax:</div>
+            <div class="t-price">$0.82</div>
+          </div>
+        </li>
+
+        <li>
+          <div class="total-line">
+            <div class="total">Total</div>
+            <div class="t-price">$10.47</div>
+          </div>
+        </li>
+      </ul>
+      <button class="order-butten">Pace order</button>
+    </div>
+  </body>
+</html>

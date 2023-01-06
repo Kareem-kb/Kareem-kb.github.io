@@ -1,0 +1,239 @@
+body {
+  margin: 0px;
+}
+@media screen and (max-width: 600px) {
+  .container {
+    width: 95%;
+  }
+}
+nav {
+  width: auto;
+  background-color: #43281c;
+  padding: 1px;
+  margin: 0px;
+  text-align: center;
+}
+.title {
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #fbf2c0;
+}
+.Logo {
+  height: 0.7cm;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+ul {
+  list-style-type: none;
+}
+.items-box {
+  background-color: #ebddcf;
+  border-radius: 8px;
+  position: relative;
+  left: -10px;
+  top: 2px;
+  size-adjust: auto;
+  height: 350px;
+  width: 500px;
+  margin: 35px;
+  padding: 0px;
+}
+/* .items-box  .all-item li {
+  border-bottom: 2px solid red;
+}
+.items-box .all-item li:last-child {
+  border-bottom: none;
+} */
+.items {
+  margin-top: 20px;
+  margin-left: 15px;
+  font-weight: lighter;
+  color: #cd9862;
+  font-weight: lighter;
+  font: size 15px;
+  margin-bottom: 20px;
+}
+
+.cart-item {
+  display: flex;
+  margin-bottom: 80px;
+}
+
+.item {
+  position: relative;
+  right: 280px;
+  width: 125px;
+  padding-bottom: 10px;
+}
+
+li.seperator {
+  width: 100%;
+  height: 1px;
+  background-color: #cd9862;
+  margin-left: -10px;
+  margin-right: 10px;
+  position: relative;
+  top: -30px;
+}
+.cart-item {
+  margin-left: 5px;
+}
+h5 {
+  color: #cd9862;
+}
+h3 {
+  font-weight: bold;
+}
+h3,
+h5 {
+  margin: 0;
+}
+.qty {
+  position: relative;
+  right: 25px;
+}
+.item {
+  position: absolute;
+}
+.price {
+  position: absolute;
+  right: 20px;
+  font-weight: bold;
+}
+.name-box {
+  position: relative;
+  display: inline-block;
+  background-color: #ebddcf;
+  border-radius: 8px;
+  position: relative;
+  left: -10px;
+  top: 2px;
+  size-adjust: auto;
+  height: 125px;
+  width: 450px;
+  margin-top: 35px;
+  padding: 0px;
+}
+.name-box h3 {
+  padding-top: 20px;
+  padding-left: 15px;
+  font-weight: lighter;
+  color: #cd9862;
+  font-weight: lighter;
+  font: size 15px;
+  margin-bottom: 20px;
+}
+.name-box input {
+  background-color: #ebddcf;
+  border-color: #cd9862;
+  border-radius: 20px;
+  size-adjust: auto;
+  height: 25px;
+  width: 410px;
+  margin-left: 10px;
+}
+.name-box label {
+  background-color: #ebddcf;
+  color: #cd9862;
+  font-size: 11px;
+  position: absolute;
+  left: 37px;
+  top: 54px;
+  padding: 3px;
+}
+.payment-box {
+  background-color: #ebddcf;
+  border-radius: 8px;
+  position: relative;
+  left: -10px;
+
+  size-adjust: auto;
+  height: 201px;
+  width: 450px;
+  margin-top: 25px;
+}
+.payment-box h3 {
+  padding-top: 20px;
+  padding-left: 15px;
+  font-weight: lighter;
+  color: #cd9862;
+  font: size 15px;
+  padding-bottom: 20px;
+}
+.card-input {
+  background-color: #ebddcf;
+  border-color: #cd9862;
+  border-radius: 20px;
+  size-adjust: auto;
+  height: 25px;
+  width: 410px;
+  margin-left: 10px;
+}
+.label-1 {
+  background-color: #ebddcf;
+  color: #cd9862;
+  font-size: 11px;
+  position: absolute;
+  left: 37px;
+  top: 54px;
+  padding: 3px;
+}
+.card-cvv {
+  background-color: #ebddcf;
+  border-color: #cd9862;
+  border-radius: 20px;
+  size-adjust: auto;
+  height: 25px;
+  width: 410px;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+.label-2 {
+  background-color: #ebddcf;
+  color: #cd9862;
+  font-size: 11px;
+  position: absolute;
+  left: 37px;
+  top: 114px;
+  padding: 3px;
+}
+.total-box {
+  position: absolute;
+  text-align: center;
+  margin-bottom: 300px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 50px;
+}
+
+.total {
+  padding-bottom: 100px;
+  position: absolute;
+  margin-left: 300px;
+}
+.total:last-child {
+  font-weight: bolder;
+}
+.t-price {
+  margin-left: 600px;
+}
+.t-prace td:last-child {
+  font-weight: bolder;
+}
+.total-line {
+  margin: 25px;
+  font-size: 18px;
+}
+
+.order-butten {
+  position: absolute;
+  left: 90px;
+  background-color: #ebddcf;
+  border-radius: 20px;
+  size-adjust: auto;
+  width: 900px;
+  height: 35px;
+  border-color: #cd9862;
+}
